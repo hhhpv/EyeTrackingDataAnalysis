@@ -236,7 +236,7 @@ function createMap(person, dislayData) {
             .select(".domain").remove()
 
         // Build color scale
-        var myColor = d3.scaleSequential(d3.interpolateYlGn).domain([
+        var myColor = d3.scaleSequential(d3.interpolatePurples).domain([
             Math.floor(colorMin),
             Math.ceil(colorMax)
         ])
@@ -304,7 +304,7 @@ function createMap(person, dislayData) {
 
         var linear = d3.scaleLinear()
             .domain([0, colorMax])
-            .range(["rgb(255, 255, 240)", "rgb(0, 100, 0)"]);
+            .range(["rgb(255, 255, 255)", "rgb(76, 0, 153)"]);
 
         svg_2.append("g")
             .attr("class", "legendLinear")
