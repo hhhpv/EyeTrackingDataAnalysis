@@ -9,6 +9,7 @@ Instructions:
 3.Reset to default chrome settings if you are done with  Eye Tracking Data Analysis
 
 
+ScreenShots:
 ![HeatMaps](Normal.png)
 ![Compare Graphs](compare.png)
 
