@@ -6,7 +6,7 @@ Instructions:
 2. Before you run , Close all chrome instances ,if any and run the following commands.
 ![Enable CORS](EnableCors.jpeg)
     
-
+3.Reset to default chrome settings if you are done with  Eye Tracking Data Analysis
 
 
 ![HeatMaps](Normal.png)
